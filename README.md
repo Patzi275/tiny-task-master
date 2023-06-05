@@ -1,4 +1,4 @@
-It is a todo app designed for efficient task management. It provides a simple and user-friendly interface to organize and track your tasks.
+It is a todo app designed for efficient task management made using [bootstrap](https://github.com/twbs/bootstrap). It provides a simple and user-friendly interface to organize and track your tasks.
 
 ![screenshot](./todo-app-challenge.png)
 
@@ -38,4 +38,4 @@ To run it on your local machine, follow these steps:
 
 ## Contributing
 
-Contributions to TaskMaster are welcome! If you have suggestions for new features, improvements, or bug fixes, please open a pull request. Ensure that your code adheres to the project's coding standards and follows good software development practices.
+Contributions are welcome! If you have suggestions for new features, improvements, or bug fixes, please open a pull request.
