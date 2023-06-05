@@ -1,0 +1,12 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+.task-view {
+    max-width: 450px;
+}
+
+.task-view {
+    min-width: 350px;
+}

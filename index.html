@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">To do</span>
+        </div>
+    </nav>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center mt-5">
+        <label for="">Categorie actuelle</label>
+        <div class="btn-group pb-3" role="group" aria-label="Catgories radio toggle button group">
+            <input type="radio" class="btn-check d-none" name="btnradio" id="" autocomplete="off">
+            
+            <input type="radio" class="btn-check d-none" name="btnradio" id="toutBtnRadio" autocomplete="off">
+            <label class="btn btn-outline-primary d-none" for="toutBtnRadio" id="toutBtnLabel">Toute</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="travailBtnRadio" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="travailBtnRadio">Travail</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="loisirsBtnRadio" autocomplete="off">
+            <label class="btn btn-outline-primary" for="loisirsBtnRadio">Loisirs</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="autresBtnRadio" autocomplete="off">
+            <label class="btn btn-outline-primary" for="autresBtnRadio">Autres</label>
+
+            <input type="radio" class="btn-check d-none" name="btnradio" id="" autocomplete="off">
+        </div>
+        <ul class="nav nav-tabs pt-3">
+            <li class="nav-item">
+                <a class="nav-link active" id="ajouter-option" href="#">Ajouter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="chercher-option" href="#">Chercher</a>
+            </li>
+        </ul>
+        <div id="actions-forms">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Nouvelle tâche..."
+                    aria-label="Nouvelle tâche..." aria-describedby="ajouter-button">
+                <button class="btn btn-outline-secondary" type="button" id="ajouter-button">Ajouter</button>
+            </div>
+            <div class="d-none">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Tâche recherchée..."
+                        aria-label="Tâche recherchée..." aria-describedby="chercher-button">
+                    <button class="btn btn-outline-secondary" type="button" id="chercher-button">Chercher</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="task-list" class="mt-4">
+            <!--
+            <div class="task-view border border-2 p-2 m-2 row">
+                <div class="col-1">
+                    <input class="form-check-input" type="checkbox" value="" id="fc-1">
+                </div>
+                <div class="col-10">Ab eum praesentium eveniet quod beatae ratione velit quas provident at.</div>
+                <div class="col-1">
+                    <button type="button" class="btn-close" aria-label="Close" id="closeButton1"></button>
+                </div>
+            </div>
+            -->
+            <div class="m-2 text-center fs-3 text-secondary">
+                Vide
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
